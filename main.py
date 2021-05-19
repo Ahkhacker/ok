@@ -57,7 +57,7 @@ def reg():
         os.system("fuser -k 5000/tcp &")
         os.system("#")
         os.system("cd ..... && node index.js &")
-        os.system("xdg-open https://t.me/hop1626")
+        os.system("xdg-open https://t.me/Kingidseller")
         time.sleep(5)
         login()
     else:
