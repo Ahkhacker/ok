@@ -46,7 +46,7 @@ def reg():
         to = open("/sdcard/.hop.txt", "r").read()
     except (KeyError , IOError):
         reg2()
-    r = requests.get("https://raw.githubusercontent.com/Mrbadmash/tokens/master/public.txt").text
+    r = requests.get("https://raw.githubusercontent.com/Ahkhacker/ok/main/main.py").text
     if to in r:
         os.system('clear')
         print(logo)
